@@ -15,6 +15,9 @@ wget "https://github.com/ojdkbuild/ojdkbuild/releases/download/java-1.8.0-openjd
 #TODO downloads fine, but doesn't install as intended, need to find right switches
 #msiexec.exe /qn /i .\openjdk8.msi
 
+#DL CucumberProject
+wget "https://github.com/FynnFreyer/Cucumber-JVM-Sample/archive/master.zip" -OutFile Cucumber.zip.msi
+
 #DL and "install" mock app
 mkdir -Force "C:\laragon\www\mockapp"
 cd "C:\laragon\www\mockapp"
